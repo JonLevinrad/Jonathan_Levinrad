@@ -1,0 +1,37 @@
+
+* {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+#form_H1 {
+    color: rgb(22, 214, 22)
+}
+.classA {
+    background-color: bisque;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+div a{
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    background-color: aqua;
+    color: black;
+    border: 1px solid green;
+    text-transform: uppercase;
+}
+form{
+    margin: 5px;
+}
+
+
