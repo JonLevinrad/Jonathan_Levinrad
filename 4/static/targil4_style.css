@@ -1,0 +1,107 @@
+:root{
+    --myLightBlue:rgb(118,181,197);
+    --myblue:rgb(30,129,176);
+    --sand:rgb(234,182,118);
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding: 1vw;
+}
+body{
+    background-color: var(--myblue);
+    border-color:var(--sand);
+}
+body.type2{
+    background-image: url(Sunset_2007-1.jpg);
+}
+
+.type3 {
+    background-image: linear-gradient(to right,#00B4D8,#0096C7,#0077B6,#023E8A);
+    border: 5px solid var(--Border) ;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: Disapear;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+
+.button {
+    background-color:#766f75;
+    color: #ffffff;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    padding:15px;
+    min-height:100px; 
+    min-width: 300px;
+}
+.button:hover {
+    background-color:#a7a8ab;
+    transition: 0.5s;
+}
+
+.table1{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table1 th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.table1 td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.table1 tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.GridContainer{
+    display: grid;
+    grid-template-areas: 'top_middle-left top_middle-left top_right'
+    'middle_left middle_middle middle_right'
+    'bottom_left bottom_middle bottom_right';
+
+}
+
+.item1{
+    grid-area: top_middle-left;
+    border-color: white;
+    border-width: 1vw;
+}
+
+.item2{
+    grid-area: top_right;
+}
+
+
+.item3{
+    grid-area: middle_left;
+}
+.item4{
+    grid-area: middle_middle;
+}
+.item5{
+    grid-area: middle_right;
+}
+.item6{
+    grid-area: bottom_left;
+}
+.item7{
+    grid-area: bottom_middle;
+}
+.item8{
+    grid-area: bottom_right;
+}
+
+@keyframes Disapear {
+    0% {color: white;}
+    50% {color:rgb(66, 119, 134)}
+    100% {color: white;}
+}
