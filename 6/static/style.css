@@ -1,0 +1,31 @@
+* {
+    padding: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: wheat;
+    color: rgb(95, 95, 95);
+}
+
+.NightStyle{
+    background-color: rgb(95, 95, 95);
+    color: wheat;
+}
+
+button {
+    background-color: rgb(192, 167, 220);
+    color:black;
+    border: 1px solid whitesmoke;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    color: antiquewhite;
+}
+
+div{
+    transition: 1s;
+}
